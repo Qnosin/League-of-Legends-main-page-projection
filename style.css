@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    overflow-y: hidden;
+    
+}
+#container{
+    width: 1920px;
+    height: 960px;
+    
+
+    
+}
+#movie{
+    height: 960px;
+    left: 0;
+    top: auto;
+    position: absolute;
+    display: block;
+}
+#logo{
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 40%;
+}
+#subs{
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 26%;
+}
+#join{
+    color: #dbdad0;
+    font-size:55px;
+    text-transform: uppercase;
+    padding-left: 210px;
+    text-shadow: 1px 2px 2px black;
+
+}
+#become{
+    color: #e8e19b;
+    font-size: 90px;
+    padding-right: 10s;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 2px black;
+}
+#link{
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    left: 84%;
+}
+#lol_link{
+    color: #dedbc3;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+#button{
+    position: absolute;
+    z-index: 1;
+    top: 95%;
+    left: 43%; 
+    
+}
+#lol_button{
+    border: 3px solid #22288a;
+    border-radius: 0;
+    padding: 10px 10px 10px 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #1d1e2e;
+    text-decoration: none;
+    transition: 1s ;
+}
+#lol_button:hover{
+    border-color: #cccde0;
+    color: #adadb8;
+
+}
